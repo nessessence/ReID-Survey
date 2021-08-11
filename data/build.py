@@ -21,7 +21,7 @@ def val_collate_fn(batch):
 
 def make_data_loader(cfg):
     transforms = build_transforms(cfg)
-    dataset = init_dataset(cfg.DATASETS.NAMES, root=cfg.DATASETS.ROOT_DIR)
+    dataset = init_dataset(cfg.DATASETS.NAMES, root=cfg.DATASETS.ROOT_DIR, path=cfg.DATASETS.PATH)
 
     num_classes = dataset.num_train_pids
     num_workers = cfg.DATALOADER.NUM_WORKERS

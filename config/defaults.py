@@ -64,6 +64,7 @@ _C.DATASETS = CN()
 _C.DATASETS.NAMES = ('market1501')
 # Root directory where datasets should be used (and downloaded if not found)
 _C.DATASETS.ROOT_DIR = ('./toDataset')
+_C.DATASETS.PATH = None
 
 # -----------------------------------------------------------------------------
 # DataLoader

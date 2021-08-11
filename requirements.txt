@@ -1,0 +1,8 @@
+# pytorch
+# torchvision
+# conda install pytorch==1.0.0 torchvision==0.2.1 ignite==0.1.2 cuda100 -c pytorch  
+# conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+# pytorch-ignite
+yacs
+scipy==1.2.1
+h5py
